@@ -11,7 +11,7 @@ section::before {
     opacity: 1;
     position: absolute;
     font-weight: 700;
-    top: 20px;
+    top: 25px;
     left: -30px;
 }
 
@@ -127,6 +127,23 @@ section::before {
 
 #experience-3:hover::after {
     content: "Web Project";
+}
+
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.form-label {
+    font-weight: 700;
 }
 
 @keyframes upDown {

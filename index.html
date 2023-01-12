@@ -51,7 +51,7 @@
         </div>
     </section>
     <section id="about" class="about container">
-        <p>A web development and software engineering interest. Studying in SMK Telkom Bandung as majoring in computer network engineerin. Have good ethics, loyal, and realible. And also has the nature of being challenged with new things.</p>
+        <p class="pt-5">A web development and software engineering interest. Studying in SMK Telkom Bandung as majoring in computer network engineerin. Have good ethics, loyal, and realible. And also has the nature of being challenged with new things.</p>
         <div class="about-exp">
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
@@ -86,7 +86,7 @@
         </div>
     </section>
     <section id="experience" class="experience container">
-        <div class="row d-flex align-items-center gap-5">
+        <div class="row d-flex align-items-center gap-5 pt-5">
             <div class="col">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste obcaecati laudantium, aperiam tempora ducimus dicta ad labore quaerat error nisi? Facilis quo sed veritatis et tempore quis nihil. Facere consequuntur est minus dicta maxime perferendis nesciunt ipsum, magnam illo alias atque deserunt in praesentium dolor saepe porro eligendi vel inventore.</p>
             </div>
@@ -100,6 +100,46 @@
                 <div id="experience-3" class="experience-img-item">
                     <img src="images/work-3.png" alt="experience 3">
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact container">
+        <div class="row d-flex align-items-center gap-5 pt-5">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatem cum quas! Tempore libero dicta culpa provident inventore odit assumenda.</p>
+                <div class="row">
+                    <div class="col d-flex align-items-center">
+                        <img src="images/instagram.svg" alt="instagram icon">
+                        <p>@syafiq_syaddid</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img src="images/discord.svg" alt="discord icon">
+                        <p>sharp twilight</p>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img src="images/envelope.svg" alt="email icon">
+                        <p>syafiqasyaddid@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <form class="contact-form" onsubmit="onFormSubmit(event)">
+                    <div class="mb-3">
+                      <label for="inp-email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="inp-email" placeholder="example@gmai.com" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="inp-subject" class="form-label">Subject</label>
+                      <input type="text" class="form-control" id="inp-subject" placeholder="your subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inp-message" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="inp-message" placeholder="your message" required>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                  </form>
             </div>
         </div>
     </section>
