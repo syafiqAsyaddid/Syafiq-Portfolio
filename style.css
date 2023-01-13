@@ -150,20 +150,16 @@ section::before {
     font-weight: 700;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .home img {
         width: 50%;
     }
-} */
+}
 
 @media screen and (max-width: 576px) {
     section::before {
         left: -10px;
         font-size: 64px;
-    }
-
-    .myphoto {
-        width: 100%;
     }
 }
 
