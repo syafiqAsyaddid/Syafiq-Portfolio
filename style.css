@@ -152,7 +152,7 @@ section::before {
 
 @media screen and (max-width: 768px) {
     .home img {
-        width: 50%;
+        width: 100%;
     }
 }
 
