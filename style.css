@@ -39,6 +39,10 @@ section::before {
     font-size: 38px;
 }
 
+.home .col-4 img {
+    width: 100%;
+}
+
 .myphoto {
     width: 350px;
     height: 350px;
@@ -144,6 +148,23 @@ section::before {
 
 .form-label {
     font-weight: 700;
+}
+
+/* @media screen and (max-width: 768px) {
+    .home img {
+        width: 50%;
+    }
+} */
+
+@media screen and (max-width: 576px) {
+    section::before {
+        left: -10px;
+        font-size: 64px;
+    }
+
+    .myphoto {
+        width: 100%;
+    }
 }
 
 @keyframes upDown {
